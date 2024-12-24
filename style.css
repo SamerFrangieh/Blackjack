@@ -1,4 +1,46 @@
 .title{
-
+    display: flex;
+    justify-content: center;
+    
+    height: 20vh;
+}
+h1{
+    font-size: 8vh;
     color: aquamarine;
+}
+
+
+body{
+    background-color: dimgrey;
+}
+
+.cards{
+    display: flex;
+    height: 50vh;
+    gap: 5px;
+
+}
+
+.player{
+
+    width: 50%;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    height: 30vh ;
+    
+}
+.butt{
+    border: 3px solid black ;
+    gap: 10px;
+    width: 10%;
+    height: 10%;
+    font-size: 70%;
+}
+
+.num{
+    display: flex;
+    
 }

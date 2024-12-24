@@ -1,8 +1,8 @@
 function run(){
 
-    document.querySelector(".title")[0].addEventListener("click", function(){
+    document.querySelector(".title").addEventListener("click", function(){
 
-        var type = document.querySelectorAll(".title")[0].classList[0];
+        var type = document.querySelector(".title");
         type.style.color = 'blue';
        
        });
